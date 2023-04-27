@@ -23,6 +23,8 @@ if len(card_no) == 13 or len(card_no) == 15 or len(card_no) == 16:
 
     final = list1_2+list2
 
+    print(list1_2)
+
     # final = list(map(int, new))
 
     if sum(final) % 10 == 0:
